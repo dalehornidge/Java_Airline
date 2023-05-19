@@ -33,6 +33,11 @@ public class CabinCrewMemberTest {
         assertEquals(CabinCrewRanks.FIRST_OFFICER, cabinCrewMember.getCabinCrewRanks());
     }
 
+    @Test
+    public void canSendMessage(){
+        assertEquals("The pilot has turned on the seatbelt sign", cabinCrewMember.messageToPassengers());
+    }
+
 
 
 

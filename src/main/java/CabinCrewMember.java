@@ -25,8 +25,9 @@ public class CabinCrewMember {
         this.cabinCrewRanks = cabinCrewRanks;
     }
 
-
-
+    public String messageToPassengers(){
+        return "The pilot has turned on the seatbelt sign";
+    }
 
 
 }

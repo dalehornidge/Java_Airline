@@ -33,4 +33,8 @@ public class Pilot {
     public void setPilotLicenceNumber(String pilotLicenceNumber) {
         this.pilotLicenceNumber = pilotLicenceNumber;
     }
+
+    public String pilotIsFlying(){
+        return "We're in the air!";
+    }
 }
